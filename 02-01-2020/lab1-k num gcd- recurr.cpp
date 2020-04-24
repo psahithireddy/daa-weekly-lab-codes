@@ -33,6 +33,6 @@ for(i=0;i<t;i++)
       a[i+1]=z;
     }
   }  
-printf("gcd is"); 			
+printf("gcd is %d",z); 			
 return z;
 }
