@@ -1,0 +1,11 @@
+FINAL:	PRO
+PRO:	basic.o test.o
+	g++ test.o basic.o -o PRO
+
+test.o:	test.cpp
+	g++ -c test.cpp
+
+basic.o:	basic.cpp
+	g++ -c basic.cpp
+clean:
+	rm -f test.out test.o basic.o
