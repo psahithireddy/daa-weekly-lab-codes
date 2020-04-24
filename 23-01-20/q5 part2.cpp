@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<stdio.h>//3way merge sort//
 int b[100];
 int k=0;
 int i,p,cc=0;
